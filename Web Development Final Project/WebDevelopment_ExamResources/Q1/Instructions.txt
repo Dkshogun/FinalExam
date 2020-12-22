@@ -1,0 +1,6 @@
+1. Use Visual studio code (Not Visual Studio) to develop this web application.
+2. Add your project code into Github.
+3. Use github to host your web application.
+4. Share your 'Github project URL' and 'Project live URL'
+   Note: Don't attach the code into the email. 
+         Please share the 'Github project URL' and 'Project live URL' only.

@@ -1,0 +1,10 @@
+Q1) Develop the Web Application.
+    Please add your Github project URL's into text file and save it in Q1 folder.
+    Read the instructions in Q1 Folder.
+
+Q2) Read the instruction in Q2 Folder.
+
+Note: Final answer folder should be look like this.
+      Folder Name : IT-WEB-XX-XX-00XX-Name
+		->'Q1' Folder : Text file with your github project URL and Live URL(No need to project code)
+		->'Q2' Folder : Text file with answer queries
