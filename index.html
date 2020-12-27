@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -10,18 +9,46 @@
 
     <title>Find, Finding, Found</title>
 
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
     <style>
+        
         .top-nav{
             background-color: white !important;
+            padding-left: 5%;
+            padding-right: 5%;
             }
+
+        a.lan3:link, a.lan3:visited{
+        color: black !important;
+        text-decoration: none !important;
+            }
+        a.lan3:hover, a.lan3:active{
+           color: turquoise !important;
+           text-decoration: none !important;
+            }
+        
         .img-thumbnail1{
             padding: 0%;
             border: 0%;
             }
+        
         .topmid-nav{
-            background-color: rgba(3, 66, 238, 0.747) !important;
-            
-        }
+            color: white;
+            background-color: rgb(0, 141, 197);
+            padding: 1%;
+        }   
+       a.lan2:link, a.lan2:visited{
+        color: white;
+        text-decoration: none;
+       }
+       a.lan2:hover, a.lan2:active{
+           color: black;
+           text-decoration: none;
+       }
+
         
         .card-img-overlay2{
             position: absolute;
@@ -31,204 +58,349 @@
             font-size: 18px;    
         }
         .first-tron{
+            background-color:  rgb(0, 141, 197);
+            padding: 1%;
+            
+        }
+       
+        
+
+        button.btn-line{
             background-color: blue;
-            height: 190px;
+            transition-duration: 0.4s;
+        }
+        button.btn-line:hover{
+            background-color: rgb(0, 0, 65);
+        }
+
+        .snow{
+            padding-top: 1%;
+            padding-left: 20%;
+            padding-right: 20%;
         }
         .ted-tron{
             color: white;
         }
-        .item{
+        .jon{
             color: orange;
             text-align: center;
+            padding-top: 2%;
         }
 
-        .pep-img{
+        button.pep-img{
             background-color: orangered;
+            font-size: 90%;
+            transition-duration: 0.4s;
+            }
+        button.pep-img:hover{
+            background-color: rgb(233, 47, 0);
         }
+        
         .trex{
             background-color: orange;
             color: white;
-            height: 170px;
+          
+            padding-top: 1%;
+        }
+        .seller{
+            padding-left: 10%;
+            padding-right: 10%;
         }
 
+        .stark{
+            font-size: 95%;
+            text-align: center;
+        }
+        
+        .end-one{
+            background-color: rgba(24, 23, 23, 0.979);
+            color: white;
+            padding-top: 2%;
+        }
+        
+        .baggy{
+            text-align: left;
+        }
+        a.samwell:link, a.samwell:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        a.samwell:hover{
+            text-decoration: none;
+            color: turquoise;
+        }
+        a.samwell:active {
+            text-decoration: none;
+        }
+        .checked{
+            color: blue;
+        }
+       .last-find{
+           border: none;
+           width: 90%;
+           padding-left: 5%;
+       }
+       button.chimp{
+           transition-duration: 0.4s;
+           background-color:  orangered;
+       }
+       button.chimp:hover{
+           background-color: rgb(199, 46, 0);
+       }
+
+       
     </style>
   </head>
   <body>
+    
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light top-nav">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/OtherImages/logo.jpg" class="img-thumbnail1" alt="..."></a>
-          
-          <div class="collapse navbar-collapse justify-content-end top-word" id="navbarSupportedContent">
-            <ul class="navbar-nav ">
-              <li class="nav-item">
-                <a class="nav-link " href="#Register"><h5 style="color: blue;" style="text-align: center;">Register</h5></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Login"><h5 style="color: blue;" style="text-align: center;">Login</h5></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Cart"><h5 style="color: blue;" style="text-align: center;">Cart</h5></a>
-              </li>
-              
-                
-            </ul>
+        <a class="navbar-brand" href="#"><img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/OtherImages/logo.jpg" class="img-thumbnail1" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav ">
             
-          </div>
-        </div>
-    </nav>
-
-    <nav class="navbar navbar-expand-lg navbar-light bg-light topmid-nav">
-        <div class="container-fluid">
+            <li class="nav-item">
+              <a class="nav-link lan3" href="#Register">Register</a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link lan3" href="#Login">Login</a>
+           </li>
+           <li class="nav-item">
+              <a class="nav-link lan3" href="#>Cart">Cart</a>
+           </li>
+          </ul>
           
-          <div class="collapse navbar-collapse justify-content-end div-top" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="#Home"><h6 style="color: white;">Home</h6></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Myproject"><h6 style="color: white;">My Project</h6></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Profile"><h6 style="color: white;">Profile</h6></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#Inbox"><h6 style="color: white;">Inbox</h6></a>
-              </li>
-              
-                
-          </div>
         </div>
     </nav>
 
+   
     
-        <section class="container-fluid">
-            <div class="card bg-dark text-white" style="padding: 0%;">
-                <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/OtherImages/background.jpg" class="card-img" alt="Background image">
-                <div class="row">
-                    
-                    <div class="col-md-12">
-                        <div class="card-img-overlay2">
-                        <h3 class="card-title">FindFindingFound</h3>
-                        <h2 class="card-text" style="background-color: orange;">Find what you need</h2>
-                        <p class="card-text">FindFindingFound is the first and foremost marketplace where the buyer is in full contol. This is the site
-                        to be when all other avenues fail.</p>
-                        </div>
-                    </div>
-                
+            
+      
+    <div class="jumbotron jumbotron-fluid topmid-nav">
+        <div class="container">
+            
+            
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link lan2" href="#Home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lan2" href="#My Projects">My Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lan2" href="#Profile">Profile</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link lan2" href="#Inbox">Inbox</a>
+              </li>
+            </ul>
+        </div>
+    </div>
     
-                </div>
-            </div>
-        </section>
+      <div class="card bg-dark text-white">
+        <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/OtherImages/background.jpg" class="card-img-fluid" alt="...">
+        <div class="card-img-overlay2">
+          <h3 class="card-title">FindFindingFound</h3>
+          <h2 class="card-title" style="background-color: orange;">Find what you need</h2>
+          <p class="card-text">FindFindingFound is the first and foremost marketplace where the buyer is in full contol. This is the site
+            to be when all other avenues fail.</p>
+        </div>
+      </div>
+      
+
+        
       
    
 
     
-        <div class="jumbotron jumbotron-fluid first-tron ">
-            <div class="container">
-                    
-              <p class="lead text-center"><span class="ted-tron"><b>Regardless whether you are looking for something rare, looking for that special deal, or just something to provide,
-                our platform will enable your needs.</b></span></p>
-
-                <section>
-                    <div class="row">
-                        <div class="col-md-6 text-center"><span class="ted-tron"><b>Ready to get started....?</b></span></div>
-                        <div class="col-md-6 text-center"><span class="ted-tron"><b>Already have an account....?</b></span></div>
-                    </div>
-                    
-                </section>
-                
-                <section>
-                    <div class="row mt-2">
-                        <div class="col-md-6 text-center"><button type="button" class="btn btn-lg btn-primary log">REGISTER</button></div>
-                        <div class="col-md-6 text-center"><button type="button" class="btn btn-lg btn-primary log">LOG IN</button></div>
-                    </div>
-                </section>
+        <div class="jumbotron jumbotron-fluid ">
+            <div class="card first-tron" style="width: 100%;">
+                <div class="card-body">
+                  
+                  
+                    <section>
+                        <div class="row snow">
+                            <div class="col-md-12 "><p class="lead text-center"><span class="ted-tron"><b>Regardless whether you are looking for something rare, looking for that special deal, or just something to provide,
+                                our platform will enable your needs.</b></span></p></div>
+                            
+                        </div>
+                        
+                    </section>
+                    <section>
+                        <div class="row snow">
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="lead text-center"><span class="ted-tron"><b>Ready to get started....?</b></span></p>
+                                        <p class="lead text-center"><button type="button" class="btn btn-lg btn-primary btn-line"><small>REGISTER</small></button></p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <p class="lead text-center"><span class="ted-tron"><b>Already have an account....?</b></span></p>
+                                        <p class="lead text-center"><button type="button" class="btn btn-lg btn-primary btn-line"><small>LOG IN</small></button></p>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+                 
+                </div>
             </div>
         </div>
+
+        
+        
+        
    
 
         <div class="container item mt-5">
-            <h2>What people are buying?</h2>
+            <h2 class="worth" style="color: orange;">What people are buying?</h2>
 
-            <section >
+            <section class="container jon">
                 <div class="row mt-2">
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-2">
                         <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                            <h6 class="baggy"><span class="badge badge-secondary" style="background-color: orange;">NEW</span></h6>
                             <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Products/1.jpg" class="card-img-top" alt="Helmet">
-                            <div class="card-body">
-                              <h5 class="card-title ">Helmet</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">$499.00</a>
+                           
+                              <h5 class="card-title ">Safety Helmet</h5>
+                              <p class="text-center">
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                              </p>
+                              <div class="row stark">
+                                <div class="col-md-6"><span><small>$499.00</small></span></div>
+                                <div class="col-md-6"><span class="cros-text" style="color: rgba(0, 0, 0, 0.507);"><del><small>$599.00</small></del></span></div>
+                              </div>
+                                   
+                                  
                             </div>
+                              
+                              
                         </div>
                     </div>
-                    <div class="col-md-3">
+                
+                    <div class="col-md-3 mt-2">
                         <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                            <h6 class="baggy"><span class="badge badge-secondary" style="background-color: orange;">NEW</span></h6>
                             <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Products/2.jpg" class="card-img-top" alt="Kids Bag">
-                            <div class="card-body">
+                            
                               <h5 class="card-title ">Kids Bag</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">$499.00</a>
+                              <p class="text-center">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                            <div class="row stark">
+                                <div class="col-md-6" ><span><small>$499.00</small></span></div>
+                                <div class="col-md-6" ><span class="cros-text" style="color: rgba(0, 0, 0, 0.507);"><del><small>$599.00</small></del></span></div>
+                            </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-2">
                         <div class="card" style="width: 100%;">
+                            <div class="card-body">
+                            <h6 class="baggy"><span class="badge badge-secondary" style="background-color: rgb(14, 182, 238);">SALE</span></h6>
                             <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Products/3.jpg" class="card-img-top" alt="Modern Bag">
-                            <div class="card-body">
+                            
                               <h5 class="card-title ">Modern Bag</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">$499.00</a>
+                              <p class="text-center">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                            <div class="row stark">
+                                <div class="col-md-6"><span><small>$499.00</small></span></div>
+                                <div class="col-md-6"><span class="cros-text" style="color: rgba(0, 0, 0, 0.507);"><del><small>$599.00</small></del></span></div>
+                            </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-2">
                         <div class="card" style="width: 100%;">
-                            <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Products/4.jpg" class="card-img-top" alt="Headphone">
                             <div class="card-body">
+                            <h6 class="baggy"><span class="badge badge-secondary" style="background-color: orange;">NEW</span></h6>
+                            <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Products/4.jpg" class="card-img-top" alt="Headphone">
+                            
                               <h5 class="card-title ">Headphone</h5>
-                              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                              <a href="#" class="card-link">$499.00</a>
+                              <p class="text-center">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                            </p>
+                            <div class="row stark">
+                                <div class="col-md-6"><span><small>$499.00</small></span></div>
+                                <div class="col-md-6"><span class="cros-text" style="color: rgba(0, 0, 0, 0.507);"><del><small>$599.00</small></del></span></div>
+                            </div>
+                              
+                              
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-        </div>   
-   
-<section class="container mt-5">
+        </div> 
+
+<div class="jumbotron jumbotron-fluid mt-5">   
+   <section class="container bid ">
     <div class="row">
         <div class="col-md-1">
-            <img class="img-top" src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Customers/1.jpg" alt="customer1" style="width:120%;">
+            <img class="img-fluid-top" src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Customers/1.jpg" alt="customer1" style="width:100%;">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-8">
             <h5>Translate Spanish to English</h5>
             <p>Posted 01/09/2019</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2" style="padding-top: 3%">
             <h5>$250.00 to $700.00</h5>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1" style="padding-top: 3%">
             <button type="button" class="btn btn-primary pep-img">Place Bid</button>
         </div>
     </div>
-</section>
+   </section>
      
 <section class="container"><hr></section>
 
 <section class="container">
     <div class="row">
         <div class="col-md-1">
-            <img class="img-top" src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Customers/2.jpg" alt="customer2" style="width:120%;">
+            <img class="img-top" src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Customers/2.jpg" alt="customer2" style="width:100%;">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-8">
             <h5>Graphic design for Company</h5>
             <p>Posted 01/09/2019</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2" style="padding-top: 3%">
             <h5>$550.00 to $670.00</h5>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1" style="padding-top: 3%">
             <button type="button" class="btn btn-primary pep-img">Place Bid</button>
         </div>
     </div>
@@ -239,16 +411,16 @@
 <section class="container">
     <div class="row">
         <div class="col-md-1">
-            <img class="img-top" src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Customers/3.jpg" alt="customer3" style="width:120%;">
+            <img class="img-top" src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Customers/3.jpg" alt="customer3" style="width:100%;">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-8">
             <h5>Creative Art and Logo</h5>
             <p>Posted 01/09/2019</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2" style="padding-top: 3%">
             <h5>$250.00 to $600.00</h5>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1" style="padding-top: 3%">
             <button type="button" class="btn btn-primary pep-img">Place Bid</button>
         </div>
     </div>
@@ -259,43 +431,183 @@
 <section class="container">
     <div class="row">
         <div class="col-md-1">
-            <img class="img-top" src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Customers/4.jpg" alt="customer4" style="width:120%;">
+            <img class="img-top" src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/Customers/4.jpg" alt="customer4" style="width:100%;">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-8">
             <h5>Website Development Job</h5>
             <p>Posted 01/09/2019</p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-2" style="padding-top: 3%">
             <h5>$450.00 to $900.00</h5>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-1" style="padding-top: 3%">
             <button type="button" class="btn btn-primary pep-img">Place Bid</button>
         </div>
     </div>
 </section>
      
 <section class="container"><hr></section>            
-        
-<div class="jumbotron jumbotron-fluid trex ">
-    <div class="container mt-5">      
-      <p class="lead text-center"><b>There are 1000s of sites out there in the internet selling items, 
-        but it is becoming more common for buyers to not find what they are looking for. We are now providing a buyer-centric platform
-        so the the sellers can come to you instead</b></p>
+</div>
 
-        <section>
-            <div class="row mt-5">
-                <div class="col-md-6 text-center"  ><button type="button" style="background-color: orangered;" style="border-color: black;" class="btn btn-lg btn-primary log" >FIND SOMETHING</button></div>
-                <div class="col-md-6 text-center" ><button type="button" style="background-color: orangered;" style="border-color: black;" class="btn btn-lg btn-primary log" >FOUND SOMETHING</button></div>
+
+ 
+
+
+
+<div class="jumbotron jumbotron-fluid mt-5">
+    <div class="card trex" style="width: 100%;">
+        <div class="card-body">
+          
+          
+            <section>
+                <div class="row">
+                    <div class="col-md-12"><p class="lead text-center seller"><b>There are 1000s of sites out there in the internet selling items, 
+                        but it is becoming more common for buyers to not find what they are looking for. We are now providing a buyer-centric platform
+                        so the the sellers can come to you instead!</b></p></div>
                     
-            </div>
+                </div>
+                
+                <div class="row mt-5">
+                    
+                    <div class="col-md-6 text-center"><button type="button"  class="btn btn-lg btn-primary chimp" ><small>FIND SOMETHING</small></button></div>
+                    <div class="col-md-6 text-center"><button type="button"  class="btn btn-lg btn-primary chimp" ><small>FOUND SOMETHING</small></button></div>
+                </div>
+            </section>
             
-        </section>
-
+          
+        </div>
     </div>
-</div>    
+</div>
 
 
-  
+
+<div class="jumbotron jumbotron-fluid mt-5">
+    <section class="container pale">
+        <div class="row">
+            <div class="col-md-12" style="color: orange;">
+                <h2>How It Works?</h2>
+            </div>
+        </div>
+        
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <h3 style="padding-left: 25%;">FIND</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="padding-left: 25%;">FINDING</h3>
+                </div>
+                <div class="col-md-4">
+                    <h3 style="padding-left: 25%;">FOUND</h3>
+                </div>
+            </div>
+    </section>
+      
+      
+      
+      
+      <section class="container">
+          <div class="card last-find">
+              <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/OtherImages/howitworks.jpg" class="img-fluid" alt="">
+          </div>
+      </section>
+      
+      
+      <section class="container">
+          <div class="row">
+              <div class="col-md-4">
+                  <h5 style="text-align: center;">Post the item you are looking for, along with your terms</h5>
+              </div>
+              <div class="col-md-4">
+                  <h5 style="text-align: center;">Wait for sellers to respond and agree to your terms</h5>
+              </div>
+              <div class="col-md-4">
+                  <h5 style="text-align: center;">Select your ideal seller and await delivery</h5>
+              </div>
+          </div>
+      </section>
+</div>
+
+
+    
+
+    
+
+    <div class="jumbotron jumbotron-fluid end-one mt-5">
+        <div class="container ">
+            <div class="row" >
+                <div class="col-md-3" style="padding-right: 3%;">
+                    <div class="row">
+                        <img src="./Web Development Final Project/WebDevelopment_ExamResources/Q1/SocialMediaIcons/logo-remove.png" class="img-fluid" alt="Responsive">
+                    </div>
+                
+                <p class="lead" style="text-align: left;">FindFindingFound is the first and foremeost marketplace where the buyer is in full control.
+                    This is the site to be when all the other avenues fail</p>
+                
+                </div>
+
+                <div class="col-md-3">
+                    <h5 class="ebert" style="padding-top: 9%;">Network</h5>
+                    <section class="container"><hr></section>
+                    <p class="lead"><a class="samwell" href="#Projects" target="_blank">Projects</a></p>
+                    <p class="lead"><a class="samwell" href="#Services" target="_blank">Services</a></p>
+                    <p class="lead"><a class="samwell" href="#Fantero" target="_blank">Fantero</a></p>
+                    <p class="lead"><a class="samwell" href="#Forum" target="_blank">Forum</a></p>
+                    <p class="lead"><a class="samwell" href="#Freemarket" target="_blank">Freemarket</a></p>
+                    
+                </div>
+
+                    <div class="col-md-3">
+                    <h5 class="sherbert" style="padding-top: 9%;">About</h5>
+                    <section class="container"><hr></section>
+                    <p class="lead"><a class="samwell" href="#About Us" target="_blank">About Us</a></p>
+                    <p class="lead"><a class="samwell" href="#How it Works" target="_blank">How it Works</a></p>
+                    <p class="lead"><a class="samwell" href="#Security" target="_blank">Security</a></p>
+                    <p class="lead"><a class="samwell" href="#Report" target="_blank">Report</a></p>
+                    <p class="lead"><a class="samwell" href="#Fees and Charges" target="_blank">Fees and Charges</a></p>
+                        
+                    </div>
+
+                    <div class="col-md-3">
+                        <h5 class="void" style="padding-top: 9%;">Follow Us</h5>
+                        <section class="container"><hr></section>
+                            <div class="row">
+                                <div class="col-md-4 mt-2">
+                                    <a class="tarly" href="#Twitter" target="_blank"><img src="Web Development Final Project/WebDevelopment_ExamResources/Q1/SocialMediaIcons/twitter.png"></a>
+                                    
+                                </div>
+                                <div class="col-md-4 mt-2">
+                                    <a class="tarly" href="#Youtube" target="_blank"><img src="Web Development Final Project/WebDevelopment_ExamResources/Q1/SocialMediaIcons/youtube.png"></a>
+                                    
+                                </div>
+                                <div class="col-md-4 mt-2">
+                                    <a class="tarly" href="#Pinterest" target="_blank"><img src="Web Development Final Project/WebDevelopment_ExamResources/Q1/SocialMediaIcons/pinterest.png"></a>
+                
+                                </div>
+                            </div>
+                            
+                    </div>
+
+                       
+                
+            </div>
+          
+        </div>
+    </div>      
+                
+      
+        
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
 
   </body>
 </html>
